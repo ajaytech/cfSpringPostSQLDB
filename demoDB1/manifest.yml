@@ -1,0 +1,8 @@
+applications:
+- name: demoCRUD
+  memory: 1024M
+  timeout: 100
+  random-route: true
+  path: ./target/demoDB1-0.0.1-SNAPSHOT.war
+  services: 
+    - database
